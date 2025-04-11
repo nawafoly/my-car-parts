@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر قطع غيار السيارات</title>
+    <link rel="stylesheet" href="page2.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png/Car-Logo-PNG-Photos.png  " alt="شعار المتجر" style="height:40px;">
+        </div>
+        <ul>
+            <li><a href="#">AREA</a></li>
+            <li><a href="#">STORE</a></li>
+            <li><a href="#">MY CAR</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#" class="btn">LOG IN</a></li>
+        </ul>
+    </nav>
+
+    <section class="main-section">
+        <div class="filter-section">
+            <h2>Select Your Vehicle</h2>
+            <div class="filters">
+                <select id="year-select">
+                    <option value="">YEAR</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                </select>
+                <select id="brand-select">
+                    <option value="">NAME</option>
+                    <option value="land-rover">LAND - ROVER</option>
+                    <option value="nissan">NISSAN</option>
+                    <option value="toyota">TOYOTA</option>
+                </select>
+                <select id="model-select">
+                    <option value="">MODEL</option>
+                </select>
+                <button id="search-btn">SEARCH</button>
+            </div>
+        </div>
+
+        <div class="brands-section">
+            <h3>Browse your car parts catalog</h3>
+            <p>Choose Brand</p>
+            <div class="brands-grid">
+                <div class="brand-card" data-brand="land-rover">
+                    <img src="logo.png/LandRover.svg.png" alt="LAND - ROVER">
+                    <p>LAND - ROVER</p>
+                </div>
+                <div class="brand-card" data-brand="nissan">
+                    <img src="logo.png/nissan-6-logo-png-transparent.png" alt="NISSAN">
+                    <p>NISSAN</p>
+                </div>
+                <div class="brand-card" data-brand="toyota">
+                    <img src="logo.png/pngimg.com - car_logo_PNG1665.png" alt="TOYOTA">
+                    <p>TOYOTA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="page2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    background-color: #ff6600;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.btn {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.navbar {
+    background-color: #f6c015;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.filter-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.filters {
+    margin: 20px 0;
+}
+
+.filters select, .filters button {
+    padding: 10px;
+    margin: 5px;
+}
+
+.models {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.models button {
+    background-color: #ffcc99;
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.models button:hover {
+    background-color: #ff9966;
+    color: white;
+}
